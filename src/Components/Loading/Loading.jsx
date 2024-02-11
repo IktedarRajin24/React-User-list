@@ -1,9 +1,10 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
+import "./Loading.css";
 
 const Loading = () => {
   return (
-    <div className="h-full flex justify-center items-center my-10">
+    <div className=" flex justify-center items-center loading">
       <p className="text-5xl text-slate-300">Loading...</p>
     </div>
   );
